@@ -20,4 +20,4 @@ jobs:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         with:
           entrypoint: sh
-          args: -c "ALGOLIA_API_KEY=$ALGOLIA_API_KEY yarn index-docs"
+          args: -c "ALGOLIA_API_KEY=$ALGOLIA_API_KEY yarın index-docs"
